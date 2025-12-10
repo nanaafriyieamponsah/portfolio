@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio — Nana Afriyie</title>
+
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Nana Afriyie</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav4">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="nav4">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link active" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+    <h2>Portfolio</h2>
+    <p class="lead">Sample projects & creative work (replace with your own items)</p>
+
+    <div class="row g-4 mt-3">
+      <!-- item 1 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://via.placeholder.com/800x450.png?text=Graphic+Design+Project+1" class="card-img-top" alt="Design 1">
+          <div class="card-body">
+            <h5 class="card-title">Brand Logo & Social Pack</h5>
+            <p class="card-text">Logo design and social media set for a small brand — includes banners and thumbnails.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- item 2 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://via.placeholder.com/800x450.png?text=Video+Edit+Project" class="card-img-top" alt="Video Edit">
+          <div class="card-body">
+            <h5 class="card-title">Promo Video Edit</h5>
+            <p class="card-text">Short promo video edit for Instagram and TikTok — color grade, cuts and sound sync.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- item 3 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://via.placeholder.com/800x450.png?text=Web+Project" class="card-img-top" alt="Web">
+          <div class="card-body">
+            <h5 class="card-title">Portfolio Website (Sample)</h5>
+            <p class="card-text">A responsive bootstrap website template used for personal portfolios and small businesses.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-white py-3">
+    <div class="container text-center">
+      <small>© <span id="year4"></span> Nana Afriyie Amponsah</small>
+    </div>
+  </footer>
+
+  <script src="bootstrap/js/bootstrap.bundle.js"></script>
+  <script>document.getElementById('year4').textContent = new Date().getFullYear();</script>
+</body>
+</html>

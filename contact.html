@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Nana Afriyie</title>
+
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Nana Afriyie</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav5">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="nav5">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+    <h2>Contact Me</h2>
+    <p class="lead">Want to work together? Send a message.</p>
+
+    <form action="mailto:your.email@example.com" method="post" enctype="text/plain" class="mt-4">
+      <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input type="text" name="name" class="form-control" placeholder="Your name">
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" name="email" class="form-control" placeholder="you@example.com">
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Message</label>
+        <textarea name="message" class="form-control" rows="5" placeholder="Your message..."></textarea>
+      </div>
+
+      <button class="btn btn-primary" type="submit">Send</button>
+    </form>
+
+    <p class="text-muted mt-3"><small>Or email: <a href="mailto:your.email@example.com">your.email@example.com</a> (replace with your real email)</small></p>
+   <div class="social-links mt-3">
+    <!-- Instagram -->
+    <a href="https://instagram.com/_datboii.nana" target="_blank" class="me-3">
+        <i class="bi bi-instagram" style="font-size: 1.8rem;"></i>
+    </a>
+
+    <!-- Snapchat -->
+    <a href="https://www.snapchat.com/add/him-nana" target="_blank" class="me-3">
+        <i class="bi bi-snapchat" style="font-size: 1.8rem;"></i>
+    </a>
+</div>
+</main>
+
+  <footer class="bg-dark text-white py-3">
+    <div class="container text-center">
+      <small>© <span id="year5"></span> Nana Afriyie Amponsah</small>
+    </div>
+  </footer>
+
+  <script src="bootstrap/js/bootstrap.bundle.js"></script>
+  <script>document.getElementById('year5').textContent = new Date().getFullYear();</script>
+
+</body>
+</html>
